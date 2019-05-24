@@ -13,7 +13,7 @@ public class fileConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/image/**").addResourceLocations("file:D://img/");
     }
-
+    //hello
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(testInterceptor).addPathPatterns("/user/insertUser");
